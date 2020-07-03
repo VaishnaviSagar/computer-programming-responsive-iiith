@@ -165,7 +165,7 @@ window.view = {
 		document.getElementById('tuesdayImages').style.opacity = '.3';
 		document.getElementById('wednesdayImages').style.opacity = '.3';
 		document.getElementById('thursdayImages').style.opacity = '.3';
-		document.getElementById('fridayImages').style.opacity = '.3';
+		document.getElementById('fridayImages').style.opacity = '.2';
 		document.getElementById('saturdayImages').style.opacity = '.3';
 		document.getElementById('sundayImages').style.opacity = '.3';
 	},
@@ -221,7 +221,7 @@ window.view = {
 			this.codeExecutionWithColour();
 	 	if (this.currentSiblingElement.className === 'break redClass')
 			this.codeExecutionWithColourAndId('closeBrc1Id');
-		if (1 <= model.inputNumber && model.inputNumber <= 5) {
+		if (1 <= model.inputNumber && model.inputNumber <= 6) {
 	 		if (this.nextSiblingElement.id === 'holidayId')
 				this.codeExecutionWithColourAndId('elseIfId');
 	 		else if (this.nextSiblingElement.id === 'workingdayId') {
