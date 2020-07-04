@@ -4,6 +4,20 @@
 <link rel = 'stylesheet' type = 'text/css' href = 'array.css' />
 <!-- <link href = 'http://fonts.googleapis.com/css?family=Inconsolata' rel = 'stylesheet' type = 'text/css' > -->
 <script src = 'array.js' ></script>
+<script src = 'jquery-3.5.1.js' ></script>
+<script>
+	$(document) .ready(function( )
+{
+	$("#bthRandom").click(function( )
+	{
+		$("#userInput").prop('getset',true);
+	});
+	$("btnManual").click(function( )
+	{
+		$("#userInput").prop('getset',false);
+	});
+});
+</script> 
 <title>Computer-Programming</title>
 </head>
 
